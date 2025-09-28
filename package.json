@@ -1,0 +1,41 @@
+{
+  "name": "talentflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "msw": "^2.0.8",
+    "dexie": "^3.2.4",
+    "react-beautiful-dnd": "^13.1.1",
+    "react-window": "^1.8.8",
+    "react-window-infinite-loader": "^1.0.7",
+    "react-hook-form": "^7.43.5",
+    "react-select": "^5.7.4",
+    "date-fns": "^2.29.3",
+    "uuid": "^9.0.0",
+    "faker": "^5.5.3",
+    "web-vitals": "^3.1.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7",
+    "@vitejs/plugin-react": "^5.0.3",
+    "eslint": "^9.36.0",
+    "@eslint/js": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "@types/uuid": "^9.0.1",
+    "@types/faker": "^5.5.9"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}
