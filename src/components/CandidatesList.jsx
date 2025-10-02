@@ -90,7 +90,7 @@ const CandidatesList = ({ jobId }) => {
   if (error) {
     return (
       <div className="card" style={{ padding: '2rem', textAlign: 'center' }}>
-        <h3>Error Loading Candidates</h3>
+        <h3>Candidates are seeded into IndexedDB and may not appear in production.</h3>
         <p>{error}</p>
         <button onClick={refetch} className="btn btn-primary">
           Retry

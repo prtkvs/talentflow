@@ -201,7 +201,7 @@ const AssessmentRuntime = () => {
             ← Back to Job
           </button>
           <h1 className="page-title">Assessment Not Found</h1>
-          <p className="page-subtitle">No assessment available for this job</p>
+          <p className="page-subtitle">Assessments are seeded into IndexedDB for demo purposes and may not be available for this job in production</p>
         </div>
       </div>
     );
