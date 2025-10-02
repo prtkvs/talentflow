@@ -30,6 +30,12 @@ const Navigation = () => {
             >
               Candidates
             </Link>
+            <Link 
+              to="/assessments" 
+              className={`nav-link ${isActive('/assessments') ? 'active' : ''}`}
+            >
+              Assessments
+            </Link>
           </div>
         </div>
       </div>

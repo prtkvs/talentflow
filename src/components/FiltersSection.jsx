@@ -66,7 +66,7 @@ const FiltersSection = ({
             </label>
             <select
               id="status"
-              className="form-input form-select"
+              className="form-input "
               value={localFilters.status}
               onChange={(e) => handleFilterChange('status', e.target.value)}
             >
@@ -86,7 +86,7 @@ const FiltersSection = ({
             </label>
             <select
               id="sort"
-              className="form-input form-select"
+              className="form-input"
               value={localFilters.sort}
               onChange={(e) => handleFilterChange('sort', e.target.value)}
             >
